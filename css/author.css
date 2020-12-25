@@ -1,0 +1,47 @@
+.main{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 460px;
+    box-shadow: 2px 2px 5px #555;
+    text-align: center;
+    padding: 25px 35px;
+    font-size: 18px;
+    margin-top: 110px;
+}
+.main h2{
+    margin-bottom: 25px;
+}
+img{
+    padding-bottom: 25px;
+    width: 200px;
+    height: 259px;
+}
+.author-email{
+    padding-top: 10px;
+}
+.author-email span{
+    color: #5376bc;
+}
+@media screen and (max-width: 560px){
+    .main{
+        margin-top: 90px;
+        width: 70%;
+    }
+    .main h2{
+        font-size: 24px;
+    }
+}
+.main form{
+    padding: 15px 0;
+}
+.main form div{
+    padding: 5px;
+}
+.main form input[type="submit"]{
+    border:1px solid #333;
+    background-color:#fff;
+    padding: 5px 10px;
+}
+.main form input[type="submit"]:hover{
+    background-color:#7EA6F4;
+}

@@ -1,0 +1,132 @@
+.main{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 2px 2px 5px #555;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 110px;
+    padding: 25px 10px;
+}
+.main h2{
+    margin-bottom: 22px;
+}
+.form{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+.form a{
+    text-decoration: none;
+    color: #5376bc;
+}
+.form p{
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.form-row{
+    font-size: 18px;
+    padding: 10px 5px;
+    position: relative;
+}
+.form-row textarea{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 320px;
+    max-width: 320px;
+    min-width: 320px;
+    height: 125px;
+    border: 2px solid #bbb;
+    padding: 8px;
+    font-size: 18px;
+}
+.form-row input{
+    font-size: 18px;
+    border: 2px solid #bbb;
+    width: 320px;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.form-row input[type="submit"]{
+    width: 342px;
+    background-color: #ff2b3f;
+    color: #fff;
+    border: none;
+    transition: background-color .25s;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+.form-row input[type="submit"]:hover{
+    background-color: #d61d2f;
+}
+p.form-error{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: red;
+    text-align: center;
+    font-size: 18px;
+}
+p.form-info{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #5376bc;
+    text-align: center;
+}
+.captcha-wrap{
+    height: 73px;
+}
+.g-recaptcha{
+    left: 46px;
+    position: relative;
+    z-index: 6;
+}
+.captcha-loading{
+    position: absolute;
+    z-index: 5;
+    left: 185px;
+    top: 25px;
+}
+@media screen and (max-width: 440px){
+    .main{
+        width: 320px;
+    }
+    .form-row input{
+        width: 240px;
+    }
+    .form-row input[type="submit"]{
+        width: 262px;
+    }
+    .g-recaptcha{
+        left: 6px;
+    }
+    .captcha-loading{
+        left: 145px;
+    }
+}
+@media screen and (max-width: 360px){
+    .main{
+        margin-top: 100px;
+        width: 282px;
+    }
+    .main h2{
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    .form p{
+        font-size: 16px;
+    }
+    .form-row input{
+        width: 202px;
+        font-size: 16px;
+    }
+    .form-row input[type="submit"]{
+        width: 224px;
+        font-size: 16px;
+    }
+    p.form-error{
+        font-size: 16px;
+    }
+    .g-recaptcha {
+        left: -15px;
+    }
+    .captcha-loading{
+        left: 124px;
+    }
+}

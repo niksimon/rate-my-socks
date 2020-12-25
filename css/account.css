@@ -1,0 +1,220 @@
+.main{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 800px;
+    box-shadow: 2px 2px 5px #555;
+    padding: 25px 35px;
+    font-size: 18px;
+    margin-top: 110px;
+}
+.main h2{
+    margin-bottom: 25px;
+    text-align: center;
+}
+.main p{
+    margin: 30px 10px;
+}
+.main a{
+    text-decoration: none;
+    color: #5376bc;
+}
+.main .button{
+    border: 1px solid #000;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.7;
+    margin: 4px 5px;
+    transition: opacity .15s;
+}
+.main .button:hover{
+    opacity: 1;
+}
+.main .info{
+    margin-top: 12px;
+    background-color: #e8e8e8;
+    border-radius: 3px;
+    padding: 30px 10px;
+    border: 1px solid #bbb;
+    text-align: center;
+}
+.main .info2{
+    margin-top: 12px;
+    background-color: #f4f4f4;
+    border-radius: 3px;
+    padding: 25px 10px;
+    border: 1px solid #bbb;
+    color: #7EA6F4;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main .account-content{
+    width: 100%;
+    padding-top: 8px;
+}
+.main .account-content-item{
+    width: 33.33333%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+}
+.main .account-content-item .account-content-img{
+    background-size: cover;
+    background-position: center center;
+    transition: .15s border-color;
+    border: 2px solid #eee;
+    max-width: 100%;
+    height: 230px;
+}
+.main .account-content-item .account-content-img:hover{
+    border-color: #7EA6F4;
+}
+.main .account-content-item .socks-delete{
+    position: absolute;
+    right: 19px;
+    top: 19px;
+    transition: .15s opacity;
+    opacity: 0.75;
+}
+.main .account-content-item .socks-delete:hover{
+    opacity: 1;
+}
+
+.socks-details{
+    margin-top: 7px;
+}
+.change-status{
+    border: 1px solid #7EA6F4;
+    color: #7EA6F4;
+    text-decoration: none;
+    transition: .1s all;
+}
+.change-status:hover{
+    background-color: #7EA6F4;
+    color: #fff;
+}
+.public, .approval, .reject, .private, .change-status{
+    background-color: #fff;
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 5px;
+    margin: 2px 4px;
+}
+.public{
+    border: 1px solid #40d64e;
+    color: #40d64e;
+}
+.approval{
+    border: 1px solid #7EA6F4;
+    color: #7EA6F4;
+}
+.reject{
+    border: 1px solid red;
+    color: red;
+}
+.private{
+    border: 1px solid #FF2B3F;
+    color: #FF2B3F;
+}
+
+.pages{
+    margin-top: -1px;
+}
+.pages a{
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid #bbb;
+    color: #333;
+    display: inline-block;
+    padding: 15px;
+    border-left:none;
+}
+.pages a:first-child{
+    border-left:1px solid #bbb;
+}
+.pages a:hover{
+    background-color: #cad9f7;
+}
+.pages .current{
+    background-color: #afc7f7;
+}
+@media screen and (max-width: 920px){
+    .main{
+        width: 600px;
+    }
+    .main .account-content-item .account-content-img{
+        height: 190px;
+    }
+    .main .account-content-item{
+        padding: 8px;
+    }
+}
+@media screen and (max-width: 720px){
+    .main{
+        width: 420px;
+        padding: 25px 20px;
+        font-size: 16px;
+    }
+    .main .button{
+        margin: 4px 2px;
+        padding: 10px;
+    }
+    .main .account-content-item .account-content-img{
+        height: 195px;
+    }
+    .main .account-content-item{
+        padding: 6px;
+        width: 50%;
+    }
+}
+@media screen and (max-width: 540px){
+    .main{
+        width: 320px;
+    }
+    .main .button{
+        width: 285px;
+        padding: 15px;
+    }
+    .main p{
+        margin: 20px 10px;
+    }
+    .main .account-content-item .account-content-img{
+        height: 280px;
+    }
+    .main .account-content-item{
+        padding: 5px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 420px){
+    .main{
+        width: 80%;
+        padding: 20px 15px;
+    }
+    .main h2{
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+    .main .button{
+        box-sizing: border-box;
+        width: 97%;
+        padding: 10px;
+        margin: 5px;
+        font-size: 16px;
+    }
+    .main p{
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    .main .account-content-item .account-content-img{
+        height: 260px;
+    }
+    .main .account-content-item{
+        padding: 4px;
+    }
+}
